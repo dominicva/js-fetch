@@ -1,0 +1,29 @@
+{
+  "name": "js-fetch",
+  "version": "1.0.0",
+  "description": "Regular fetch appended with .then(r => r.json())",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicvana/js-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "request",
+    "async",
+    "await"
+  ],
+  "author": "Dom van Almsick <notthedom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominicvana/js-fetch/issues"
+  },
+  "homepage": "https://github.com/dominicvana/js-fetch#readme",
+  "dependencies": {
+    "node-fetch": "3.2.4"
+  }
+}
