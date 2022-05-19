@@ -10,7 +10,7 @@ import fetch from 'node-fetch';
  * See {@link https://developer.mozilla.org/en-US/docs/Web/API/Response/json} for details.
  */
 async function jsFetch(url, options) {
-  return await fetch(url, { ...options }).then(r => r.json());
+  return await fetch(url, options).then(r => r.json());
 }
 
 export default jsFetch;
