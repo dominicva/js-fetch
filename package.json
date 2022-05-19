@@ -1,6 +1,6 @@
 {
   "name": "@notthedom/js-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Regular fetch appended with .then(r => r.json())",
   "main": "src/index.js",
   "type": "module",
